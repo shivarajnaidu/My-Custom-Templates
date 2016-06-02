@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+       
+<title>fixed floating social network buttons for myblog-opensourceinside.blogspot.in </title>
+        
+
+    
+</head>
+
+<body >
+<!-- css style code for floating social network buttons -->
+  <style type="text/css">
+
+a#floating-social-nw-buttons-fb-uv{
+	padding: 6px 15px !important;
+	border:2px solid transparent;	
+	background-color:#4862A3;	
+}
+
+a#floating-social-nw-buttons-fb-uv:hover{
+	border:2px solid transparent;	
+	background-color: #385490;
+}
+
+a#floating-social-nw-buttons-twitter-uv{
+	padding: 6px 15px !important;
+	border:2px solid transparent;
+	background-color: #2AAAE0;
+}
+
+a#floating-social-nw-buttons-twitter-uv:hover{
+	border:2px solid transparent;
+	background-color: #41D8F3;
+}
+
+
+a#floating-social-nw-buttons-gplus-uv{
+	padding: 6px !important;
+	border:2px solid transparent;
+	background-color: #D52323;	
+}
+
+
+a#floating-social-nw-buttons-gplus-uv:hover{
+	border:2px solid transparent;
+	background-color: red;
+}
+
+a.floating-social-nw-buttons-class-uv{
+	border-radius:100% !important;
+	display:block  !important; 
+	outline:0px !important; 
+	box-shadow: -1px 2px 2px rgba(0 , 0 , 0 , 0.35) !important;
+	text-decoration:none  !important; 
+	color:#fff !important;
+	text-align: center !important;
+	font-weight: bold !important;
+
+}
+
+</style>
+<!--end of css style code for floating social network buttons -->
+
+<!--html markup for floating social network buttons -->
+
+  <div id="floating-social-nw-buttons-uv" style="right:60px; top:120px; z-index:1; border: 0px solid transparent; display:block; position:fixed; font-size: 30px; font-family:monospace,Roboto,arial,sans-serif,serif;font-weight:700;" >
+
+  	<a id="floating-social-nw-buttons-fb-uv" class="floating-social-nw-buttons-class-uv" href="https://www.facebook.com/Open-source-817380741683152" title="like us on facebook" target="_blank">f</a>
+	
+	<br/>
+
+  	<a id="floating-social-nw-buttons-twitter-uv" class="floating-social-nw-buttons-class-uv" href="https://twitter.com/yuvarajvemula"  title="follow on twitter" target="_blank">t</a>
+	
+	<br/>
+  	
+  	<a id="floating-social-nw-buttons-gplus-uv" class="floating-social-nw-buttons-class-uv"  href="https://plus.google.com/+OpensourceinsideBlogspotIn" title="follow us on google plus" target="_blank">G+</a>
+
+  </div>       
+ <!--end of html markup for floating social network buttons -->
+
+<!--Mobile device detection script-->
+<script type="text/javascript">
+(function(){
+var sw=window.innerWidth ||document.documentElement.clientWidth || document.body.clientWidth;
+if (sw <= 650) {
+function ssfb(){
+document.getElementById("floating-social-nw-buttons-uv").style.display="none";
+};
+document.addEventListener("load", setTimeout(ssfb, 5000));
+};
+})();
+</script>
+<!--Mobile device detection script-->       
+</body>
+
+</html>
