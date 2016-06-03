@@ -59,7 +59,7 @@ function UV_Sharer() {
     reddit.id = "reddit-sharer-uv";
 
     let linkedin = {};
-    linkedin.text = "linkedin"
+    linkedin.text = "Linkedin"
     linkedin.href = "https://www.linkedin.com/shareArticle?url=" + location.href;
     linkedin.cname = sharingButtonsclassname;
     linkedin.title = "Share On LinkedIn"
