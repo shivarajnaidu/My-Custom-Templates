@@ -4,26 +4,33 @@
 .sharing-links {
     text-decoration: none;
     visibility: hidden;
-  }
-  h2:hover .sharing-links {
+}
+
+h2:hover .sharing-links {
     visibility: visible;
 }
 
 /*Styles for static sharing link buttons*/
 .static-socialshare-links-container {
-    background-color:#efefef;
-    padding:10px 5px;
-    font-family: serif;
-    margin:auto;
+    background-color: #efefef;
+    box-sizing: border-box;
+    color: #474746;
+    font-family: "Pt serif","Georgia",Arial,sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 10px 5px;
+    margin: 10px auto;
+    padding-left: 4px;
+    text-indent: 2%;
 }
 
 .staticSocialshare-links-cls {
     box-sizing: border-box;
-    font-weight:700;
     border-radius: 2px;
-    display: inline;
-    padding: 3px;
     color: white !important;
+    display: inline;
+    font-weight: 700;
+    padding: 3px;
     text-decoration: none !important;
     margin: 5px;
 }
@@ -38,42 +45,43 @@
     position: fixed;
     left: 0;
     top: 0;
-    padding-top: 20px;
+    padding-top: 30px;
 }
-  
-.social-sharing-buttons{
+
+.social-sharing-buttons {
     border-radius: 3px;
-    box-sizing: border-box;
-    color:#fff !important;
-    display:block !important;
+    color: #fff !important;
+    display: block !important;
+    font-family: "Pt serif","Georgia",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold !important;
+    line-height: 32px;
     width: 100px;
-    height: 30px; 
+    height: 30px;
     margin: 10px auto;
     letter-spacing: 1px;
-    padding-top: 3px;
-    text-decoration:none  !important; 
+    text-decoration: none  !important;
     text-align: center !important;
-    font-weight: bold !important;
 }
 
-a.fb-sharer-uv, a#fb-sharer-uv{
-    border:2px solid transparent; 
-    background-color:#4862A3; 
+a.fb-sharer-uv, a#fb-sharer-uv {
+    border: 2px solid transparent;
+    background-color: #4862A3;
 }
 
-a.linkedin-sharer-uv, a.twitter-sharer-uv, a#linkedin-sharer-uv, a#twitter-sharer-uv{
-    border:2px solid transparent;
+a.linkedin-sharer-uv, a.twitter-sharer-uv, a#linkedin-sharer-uv, a#twitter-sharer-uv {
+    border: 2px solid transparent;
     background-color: #2AAAE0;
 }
 
-a.gplus-sharer-uv, a#gplus-sharer-uv{
-    border:2px solid transparent;
-    background-color: #D52323;  
+a.gplus-sharer-uv, a#gplus-sharer-uv {
+    border: 2px solid transparent;
+    background-color: #D52323;
 }
 
-a.reddit-sharer-uv, a#reddit-sharer-uv{
-    border:2px solid transparent;
-    background-color: red;  
+a.reddit-sharer-uv, a#reddit-sharer-uv {
+    border: 2px solid transparent;
+    background-color: red;
 }
 
 a.fb-sharer-uv:hover,
@@ -81,5 +89,5 @@ a.linkedin-sharer-uv:hover,
 a.twitter-sharer-uv:hover,
 a.gplus-sharer-uv:hover,
 a.reddit-sharer-uv:hover {
-    background-color: green;  
+    background-color: green;
 }
