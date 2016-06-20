@@ -13,7 +13,6 @@ h2:hover .sharing-links {
 /*Styles for static sharing link buttons*/
 .static-socialshare-links-container {
     background-color: #efefef;
-    box-sizing: border-box;
     color: #474746;
     font-family: "Pt serif","Georgia",Arial,sans-serif;
     font-size: 20px;
