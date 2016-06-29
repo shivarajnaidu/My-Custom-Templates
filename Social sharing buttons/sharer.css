@@ -1,0 +1,97 @@
+/*Style rules for sharing Links*/
+
+/*Styles for heading Share It buttons*/
+.sharing-links {
+    text-decoration: none;
+    visibility: hidden;
+}
+
+h2:hover .sharing-links {
+    visibility: visible;
+}
+
+/*Styles for static sharing link buttons*/
+.static-socialshare-links-container {
+    background-color: #efefef;
+    color: #474746;
+    font-family: "Pt serif","Georgia",Arial,sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    padding: 10px 5px;
+    margin: 10px auto;
+    padding-left: 4px;
+    text-indent: 2%;
+}
+
+.staticSocialshare-links-cls {
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid transparent;
+    color: white !important;
+    display: inline;
+    font-weight: 700;
+    padding: 3px;
+    text-decoration: none !important;
+    margin: 5px;
+}
+
+/*Styles for dynamicaly created sharing buttons by script*/
+
+#social-sharing-link-container-layout {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 30px;
+}
+
+.social-sharing-buttons {
+    border-radius: 3px;
+    border: 2px solid transparent;
+    color: #fff !important;
+    display: block !important;
+    font-family: "Pt serif","Georgia",Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold !important;
+    line-height: 32px;
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    letter-spacing: 1px;
+    text-decoration: none  !important;
+    text-align: center !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fb-sharer-uv, #fb-sharer-uv {
+    background-color: #4862A3;
+}
+
+.linkedin-sharer-uv, .twitter-sharer-uv, #linkedin-sharer-uv, #twitter-sharer-uv {
+    background-color: #2AAAE0;
+}
+
+.gplus-sharer-uv, #gplus-sharer-uv {
+    background-color: #D52323;
+}
+
+.reddit-sharer-uv, #reddit-sharer-uv {
+    background-color: red;
+}
+
+.stumbleupon-sharer-uv, #stumbleupon-sharer-uv {
+    background-color: #f14829;
+}
+
+.fb-sharer-uv:hover,
+.linkedin-sharer-uv:hover,
+.twitter-sharer-uv:hover,
+.gplus-sharer-uv:hover,
+.reddit-sharer-uv:hover,
+.stumbleupon-sharer-uv:hover {
+    background-color: green;
+}
